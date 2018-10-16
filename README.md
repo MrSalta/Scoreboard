@@ -1,3 +1,5 @@
+* Scorebaord Application built using react.js. Highlights use of props, state, and components for efficient rendering. *
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
