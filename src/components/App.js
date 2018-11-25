@@ -7,12 +7,12 @@ class App extends Component {
   state = {
     players: [
       {
-        name: "Guil",
-        score: 0,
+        name: "Steve",
+        score: 1,
         id: 1
       },
       {
-        name: "Treasure",
+        name: "Guil",
         score: 0,
         id: 2
       },
