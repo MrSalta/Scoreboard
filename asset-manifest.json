@@ -1,13 +1,13 @@
 {
-  "main.css": "/Scoreboard/static/css/main.0a502aaa.chunk.css",
-  "main.js": "/Scoreboard/static/js/main.1820a8fa.chunk.js",
-  "main.js.map": "/Scoreboard/static/js/main.1820a8fa.chunk.js.map",
+  "main.css": "/Scoreboard/static/css/main.1ba2bbf5.chunk.css",
+  "main.js": "/Scoreboard/static/js/main.0534027e.chunk.js",
+  "main.js.map": "/Scoreboard/static/js/main.0534027e.chunk.js.map",
   "static/js/1.39a0acda.chunk.js": "/Scoreboard/static/js/1.39a0acda.chunk.js",
   "static/js/1.39a0acda.chunk.js.map": "/Scoreboard/static/js/1.39a0acda.chunk.js.map",
   "runtime~main.js": "/Scoreboard/static/js/runtime~main.39e37ab6.js",
   "runtime~main.js.map": "/Scoreboard/static/js/runtime~main.39e37ab6.js.map",
-  "static/css/main.0a502aaa.chunk.css.map": "/Scoreboard/static/css/main.0a502aaa.chunk.css.map",
+  "static/css/main.1ba2bbf5.chunk.css.map": "/Scoreboard/static/css/main.1ba2bbf5.chunk.css.map",
   "index.html": "/Scoreboard/index.html",
-  "precache-manifest.c26c269cf7aee24709e322e82209df19.js": "/Scoreboard/precache-manifest.c26c269cf7aee24709e322e82209df19.js",
+  "precache-manifest.905da7db345454d05d3205ce251f5928.js": "/Scoreboard/precache-manifest.905da7db345454d05d3205ce251f5928.js",
   "service-worker.js": "/Scoreboard/service-worker.js"
 }
