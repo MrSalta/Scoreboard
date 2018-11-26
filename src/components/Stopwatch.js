@@ -50,7 +50,7 @@ class Stopwatch extends Component {
                 <h2>Stopwatch</h2>
                 <span className="stopwatch-time">{seconds}</span>
                 <button onClick={this.handleStopwatch}>
-                    {this.state.isRunning ? 'Stop' : 'Start'}
+                    {this.state.isRunning ? 'Stop' : this.state.elapsedTime > 0 ? 'Resume' : 'Start'}
                 </button>
                 <button onClick={this.handleReset}>Reset</button>
             </div>
