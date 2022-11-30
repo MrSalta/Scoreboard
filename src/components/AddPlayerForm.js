@@ -13,11 +13,12 @@ class AddPlayerForm extends Component {
     
     render() {
         return (
+          <div className="add-player-form">
             <form onSubmit={this.handleAddPlayer} >
                 <input
                     type="text"
                     ref={this.playerInput}
-                    placeholder="Enter a player's name"
+                    placeholder="player name"
                 />
                 
                 <input
@@ -25,6 +26,7 @@ class AddPlayerForm extends Component {
                     value="Add Player"
                 />
             </form>
+            </div>
         );
         
     }

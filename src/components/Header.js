@@ -1,15 +1,16 @@
 import React from 'react';
 import Stats from './Stats';
-import Stopwatch from './Stopwatch';
+//import Stopwatch from './Stopwatch';
+//TODO: Add toggle for stopwatch
 
 const Header = ({title, players}) => {
     return (
         <header>
             <Stats players={players}/>
             <h1>{title}</h1>
-            <Stopwatch />
         </header>
     );
 }
-
+// Add <Stopwatch> below h1 if using
+// TODO: Add toggle for stopwatch
 export default Header;
