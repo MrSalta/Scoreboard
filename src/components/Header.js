@@ -5,12 +5,12 @@ import Stats from './Stats';
 
 const Header = ({title, players}) => {
     return (
-        <header>
-            <Stats players={players}/>
+      <div className = "header">
             <h1>{title}</h1>
-        </header>
+            </div>
     );
 }
 // Add <Stopwatch> below h1 if using
+// Add <Stats players={players}/> if using
 // TODO: Add toggle for stopwatch
 export default Header;

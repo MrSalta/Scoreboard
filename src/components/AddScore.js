@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AddPlayerForm extends Component {
   playerInput = React.createRef();
 
-  handleAddPlayer = (event) => {
+  handleAddScore = (event) => {
     const { addPlayer } = this.props; // Destructuring...
     event.preventDefault();
     addPlayer(this.playerInput.current.value);
@@ -13,10 +13,7 @@ class AddPlayerForm extends Component {
   render() {
     return (
       <div className="add-player-form">
-        <form
-          onSubmit={this.handleAddPlayer}
-          inputProps={{ pattern: "[0-9]*", inputMode: "numeric" }}
-        >
+        <form onSubmit={this.handleAddPlayer}>
           <input
             type="numeric"
             ref={this.playerInput}
@@ -24,6 +21,7 @@ class AddPlayerForm extends Component {
             pattern="[0-9]*"
             inputMode="numeric"
           />
+
           <input type="submit" value="Add Player" />
         </form>
       </div>

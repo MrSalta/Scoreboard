@@ -8,21 +8,25 @@ class App extends Component {
     players: [
       {
         name: "Steve",
+        round: 1,
         score: 1,
         id: 1
       },
       {
         name: "Guil",
+        round: 1,
         score: 0,
         id: 2
       },
       {
         name: "Ashley",
+        round: 1,
         score: 0,
         id: 3
       },
       {
         name: "James",
+        round: 1,
         score: 0,
         id: 4
       }
@@ -37,6 +41,7 @@ class App extends Component {
                 ...prevState.players, //All players already in list
                 {
                 name,
+                round: 0,
                 score: 0,
                 id: this.prevPlayerId += 1
                 }
@@ -51,7 +56,7 @@ class App extends Component {
     
     handleScoreChange = (index, delta) => {
         this.setState( prevState => ({
-            score: prevState.players[index].score += delta
+            round: prevState.players[index].round += delta
         }));
     }
     
@@ -78,6 +83,7 @@ class App extends Component {
         {this.state.players.map((player, index) =>
           <Player
             name={player.name}
+            round={player.round}
             score={player.score}
             id={player.id}
             key={player.id.toString()}
