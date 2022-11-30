@@ -1,7 +1,7 @@
 import React from 'react';
 import Stats from './Stats';
 //import Stopwatch from './Stopwatch';
-//TODO: Add toggle for stopwatch
+//TODO: #1 Add toggle for stopwatch
 
 const Header = ({title, players}) => {
     return (
