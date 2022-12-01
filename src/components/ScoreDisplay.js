@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
-const ScoreDisplay = ({ score, index, changeScore }) => {
+const ScoreDisplay = ({ score, scoreIndex, changeScore }) => {
   //Destructuring...
-
+  const [show, setShow] = useState(false);
   return (
     <div className="counter">
       <span className="counter-score">{score}</span>
       <button
         className="counter-action increment"
-        onClick={() => changeScore(index, 1)}
+        onClick={() => setShow(true)}
       >
         {" "}
         +{" "}
